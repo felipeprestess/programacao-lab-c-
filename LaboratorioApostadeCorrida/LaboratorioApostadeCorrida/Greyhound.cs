@@ -8,7 +8,7 @@ using System.Drawing;
 
 namespace LaboratorioApostadeCorrida
 {
-    class Greyhound
+   public class Greyhound
     {
         public int StartingPosition;//Onde PictureBox inicia
         public int RacetrackLength;//O tamanho da pista de corrida
