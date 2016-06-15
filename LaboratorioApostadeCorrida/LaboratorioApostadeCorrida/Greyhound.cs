@@ -20,6 +20,7 @@ namespace LaboratorioApostadeCorrida
         public bool Run()
         {
             //Avance 1,2,3 ou 4 espaços aleatoriamente
+            
             //Atualize a posição de PictureBox no formulário
             //Retorna true se eu ganhei a corrida
         }

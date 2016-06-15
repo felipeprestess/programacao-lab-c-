@@ -17,15 +17,21 @@ namespace LaboratorioApostadeCorrida
         public RadioButton MyRadionButton;//Meu RadioButton
         public Label MyLabel;// Minha Label
 
+        public Guy()
+        {
+            MyBet = null;
+            UpdateLabels();
+        }
+
         public void UpdateLabels()
         {
             //defina minha etiqueta para a descrição dda minha aposta e a etiqueta em meu
             //botão de rádio para mostrar meu dinheiro ("João tem 43 reais")
         }
 
-        public void ClearBet()//Redefina minha aposta para que seja zero
+        public void ClearBet()
         {
-
+            //Redefina minha aposta para que seja zero
         }
 
         public bool PlaceBet(int Amount, int Dog)
