@@ -15,6 +15,12 @@ namespace LaboratorioApostadeCorrida
         public Form1()
         {
             InitializeComponent();
+            Greyhound[] arrayGreyhound = new Greyhound[4];
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
