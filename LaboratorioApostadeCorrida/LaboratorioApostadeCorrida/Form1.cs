@@ -16,9 +16,26 @@ namespace LaboratorioApostadeCorrida
         {
             InitializeComponent();
             Greyhound[] arrayGreyhound = new Greyhound[4];
+           // Guy[] arrayGuy;
+           // arrayGuy[0] = new Guy();
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

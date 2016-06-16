@@ -34,11 +34,11 @@ namespace LaboratorioApostadeCorrida
             //Redefina minha aposta para que seja zero
         }
 
-        public bool PlaceBet(int Amount, int Dog)
-        {
-            //Faça uma nova aposta e armazene-a no meu campo de aposta
-            //Retorne true se o cara teve o dinheiro suficiente para apostar
-        }
+        //public bool PlaceBet(int Amount, int Dog)
+        //{
+        //    //Faça uma nova aposta e armazene-a no meu campo de aposta
+        //    //Retorne true se o cara teve o dinheiro suficiente para apostar
+        //}
 
         public void Collect(int Winner)
         {
