@@ -12,12 +12,13 @@ namespace LaboratorioApostadeCorrida
 {
     public partial class Form1 : Form
     {
+        Greyhound[] arrayGreyhound;
+        Guy[] arrayGuy;
         public Form1()
         {
             InitializeComponent();
-            Greyhound[] arrayGreyhound = new Greyhound[4];
-           // Guy[] arrayGuy;
-           // arrayGuy[0] = new Guy();
+            arrayGreyhound = new Greyhound[4];
+            arrayGuy = new Guy[3];
         }
 
         private void Form1_Load(object sender, EventArgs e)
